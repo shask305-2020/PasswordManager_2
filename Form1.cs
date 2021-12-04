@@ -41,7 +41,7 @@ namespace PasswordManager_2
             }
             finally
             {
-
+                sqlConnection.Close();
             }
         }
     }
